@@ -1,13 +1,42 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Fira", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.kategori-aktif {
+  background-color: #22668a;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #22668a;
+}
+
+.btn-shape {
+  border-radius: 30px;
+  padding: 5px 30px;
+}
+
+.navbar {
+  background-color: #22668a;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 700px;
+  }
+
+  .menu {
+    height: 800px;
+  }
 }
